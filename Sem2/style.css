@@ -1,0 +1,20 @@
+.Mitsu {
+    width: 400px;
+}
+
+body {
+    background: turquoise;
+}
+
+.header1 {
+    background: red;
+}
+
+.link {
+    background: yellow;
+}
+
+.text {
+    color: rgb(29, 197, 37);
+    font-size: 100px;
+}

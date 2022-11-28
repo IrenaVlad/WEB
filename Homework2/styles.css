@@ -1,0 +1,19 @@
+.mitsu {
+    width: 700px;
+}
+
+body {
+    background-color: burlywood;
+}
+
+.header1 {
+    color: rgb(209, 123, 2);
+}
+.text {
+    margin: 10 px 0;
+    font-style: italic;
+}
+
+.img {
+    width: 50%;
+}
