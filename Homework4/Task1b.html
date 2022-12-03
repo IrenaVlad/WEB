@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Опыт работы</h2>
+        <?php
+            $expierence = [
+                'company' => ['Policlinika', 'Dent FM', 'Super Dent'],
+                'period' => ['2010-2015', '2015-2020', '2022- current'],
+                'description' => ['easy job', 'nice job', 'super job']
+            ]
+        ?>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>
+            <?php echo $expierence['company'][0]; ?>
+        </b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>
+            <?php echo $expierence['period'][0]; ?>
+          </h6>
+        <p>
+            <?php echo $expierence['description'][0]; ?>
+        </p>
+        <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>
+            <?php echo $expierence['company'][1]; ?>
+        </b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>
+            <?php echo $expierence['period'][1]; ?>
+          </h6>
+        <p>
+            <?php echo $expierence['description'][1]; ?>
+        </p>
+        <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>
+            <?php echo $expierence['company'][2]; ?>
+        </b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>
+            <?php echo $expierence['period'][2]; ?>
+          </h6>
+        <p>
+            <?php echo $expierence['description'][2]; ?>
+        </p>
+        <hr>
+        </div>
+    </div>    
+</body>
+</html>
